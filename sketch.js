@@ -18,7 +18,8 @@ function setup() {
 	rectMode(CENTER);
 	
 	var ball_options ={
-        restitution:0.6
+        restitution:0.6,
+        isStatic:true		
           
 	}
 	var ground_options ={
